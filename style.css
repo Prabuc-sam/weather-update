@@ -1,18 +1,19 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  background: url('https://source.unsplash.com/1920x1080/?weather') no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-.weather-container {
+.weather-container, .age-calculator {
   margin: 50px auto;
   max-width: 400px;
   padding: 20px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 input, button {
@@ -20,18 +21,19 @@ input, button {
   padding: 10px;
   border-radius: 5px;
   border: none;
+  width: 100%;
 }
 
 button {
-  background-color: #2f80ed;
+  background-color: #56ccf2;
   color: #fff;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #56ccf2;
+  background-color: #2f80ed;
 }
 
-#weather-result {
+#weather-result, #age-result {
   margin-top: 20px;
 }
