@@ -7,14 +7,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="weather-container">
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#weather-section" id="weather-menu">Weather Update</a></li>
+      <li><a href="#age-section" id="age-menu">Age Calculator</a></li>
+    </ul>
+  </nav>
+
+  <!-- Weather Update Section -->
+  <div class="weather-container" id="weather-section">
     <h1>Weather Updates</h1>
     <input type="text" id="city-input" placeholder="Enter city name">
     <button id="get-weather">Get Weather</button>
     <div id="weather-result"></div>
   </div>
 
-  <div class="age-calculator">
+  <!-- Age Calculator Section -->
+  <div class="age-calculator hidden" id="age-section">
     <h1>Age Calculator</h1>
     <input type="date" id="birthdate" placeholder="Enter your birthdate">
     <button id="calculate-age">Calculate Age</button>
