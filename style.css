@@ -6,6 +6,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  transition: background 0.5s ease-in-out;
 }
 
 .weather-container, .age-calculator {
